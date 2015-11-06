@@ -32,7 +32,7 @@
 	<%
 		for(int i=0; i<saveFile.size(); i++){
 	%>
-		<li><a href="../upload/<%=saveFile.get(i)%>"><%=saveFile.get(i)%></a></li>
+		<li><a href="download.jsp?path=upload&name=<%=saveFile.get(i)%>"><%=saveFile.get(i)%></a></li>
 	<% 
 		}
 	%>
